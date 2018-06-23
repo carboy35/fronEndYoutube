@@ -7,7 +7,7 @@ import { CreateUserComponent } from './create-user/create-user.component';
 
 
 const routes: Routes =[
-    {path: '', redirectTo: '/appComponent', pathMatch: 'full'},
+    {path: '', redirectTo: '/userComponent', pathMatch: 'full'},
     {path: 'appComponent', component: AppComponent},
     {path: 'userComponent', component: UserComponent},
     {path: 'createUserComponent', component: CreateUserComponent}
